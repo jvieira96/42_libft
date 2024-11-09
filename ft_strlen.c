@@ -10,6 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+// returns the string len
+
 int	ft_strlen(char const *str)
 {
 	int	i;
@@ -19,3 +23,11 @@ int	ft_strlen(char const *str)
 		i++;
 	return (i);
 }
+
+// int main(void)
+// {
+// 	char	*str = "olaola";
+
+// 	printf("%d", ft_strlen(str));
+// 	return(0);
+// }

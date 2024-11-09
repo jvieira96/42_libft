@@ -10,8 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
-#include <string.h>
+#include "libft.h"
+
+/// Sets the first n bytes of the memory area pointed to by s to c
+/// s	Pointer to the memory area
+/// c	Character to be set
+/// n	Number of bytes to be set
+/// return		SUCCESS(s)
 
 void	*ft_memset(void *s, int c, size_t n)
 {
@@ -29,22 +34,14 @@ void	*ft_memset(void *s, int c, size_t n)
 	return (s);
 }
 
-/*int main(void) {
-    size_t n = 10;  // Tamanho do buffer
-    char buffer[10];  // Declara um array de caracteres
+// int main(void) {
+//     size_t n = 10;
+//     char buffer[10];
 
-    // Preenche o buffer com o caractere 'X'
-    ft_memset(buffer, 'X', n);
-
-    // Adiciona um caractere nulo ao final para imprimir como string
-    buffer[n - 1] = '\0';
-
-    // Imprime o conteúdo do buffer
-    printf("Buffer após ft_memset: %s\n", buffer);
-
-    // Para comparação, vamos usar a função memset da biblioteca padrão
-    memset(buffer, 'O', n);  // Preenche o buffer com 'O'
-    printf("Buffer após memset: %s\n", buffer);
-
-    return 0;
-}*/
+//     ft_memset(buffer, 'X', n);
+//     buffer[n - 1] = '\0';
+//     printf("Buffer após ft_memset: %s\n", buffer);
+//     memset(buffer, 'O', n);
+//     printf("Buffer após memset: %s\n", buffer);
+//     return 0;
+// }

@@ -10,8 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
+
+// function locates the first occurrence of the 
+// null-terminated string little in the
+// string big, where not more than len characters are searched.
 
 char	*ft_strnstr(const char *big, const char *litlle, size_t len)
 {

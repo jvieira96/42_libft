@@ -12,6 +12,8 @@
 
 #include <unistd.h>
 
+// writes the number passed as a int 
+
 void	ft_putnbr_fd(int n, int fd)
 {
 	long	nbr;
@@ -33,3 +35,11 @@ void	ft_putnbr_fd(int n, int fd)
 	print = (nbr % 10) + '0';
 	write(fd, &print, 1);
 }
+
+// int main(void)
+// {
+// 	int	num = 12332;
+
+// 	ft_putnbr_fd(num, 1);
+// 	return (0);
+// }

@@ -10,7 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
+
+/// Alloc memory for an array of nmemb of size bytes each
+/// nmemb - Number of elements
+/// size - Size of each element
+/// return - SUCCESS(Pointer to the allocated memory)
+/// return - FAILURE(NULL)
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
@@ -34,3 +40,19 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	}
 	return (array);
 }
+
+// int	main (void)
+// {
+// 	size_t	nmemb = 5;
+// 	size_t 	size = sizeof(int);
+// 	int		*array;
+
+// 	array = (int *)ft_calloc(nmemb, size);
+// 	if (array == NULL)
+// 	{
+// 		printf("Falha na alocacao");
+// 		return (0);
+// 	}
+// 	printf("Array alocado e inicializado com 0");
+// 	return (0);
+// }

@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+/// Checks if character is printable
+/// c - character to check
+/// return		SUCCESS(1)
+/// return		FAILURE(0)
+
 int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
@@ -17,3 +24,11 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
+
+// int	main(void)
+// {
+// 	char	c = 'c';
+
+// 	printf("%d", ft_isprint(c));
+// 	return (0);
+// }

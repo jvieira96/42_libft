@@ -13,6 +13,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Applies the function f to each character of the
+// string s, passing its index as the first argument
+// and the character itself as the second. A new
+// string is created (using malloc(3)) to collect the
+// results from the successive applications of f
+
 // static  char	ft_toupper(unsigned int index, char	c)
 // {
 // 	if (c >= 97 && c <= 122)

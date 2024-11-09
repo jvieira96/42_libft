@@ -10,19 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
 
-static	int	ft_strlen(const char *s)
-{
-	int	len;
-
-	len = 0;
-	while (s[len] != '\0')
-	{
-		len++;
-	}
-	return (len);
-}
+// function returns a pointer to the last 
+// occurrence of  the  character  c  in  the
+// string s.
 
 char	*ft_strrchr(const char *s, int c)
 {
@@ -39,3 +31,12 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
+
+// int main (void)
+// {
+// 	char	*str = "ola tudo bem";
+// 	char	c = 'e';
+
+// 	printf("%s", ft_strrchr(str, c));
+// 	return (0);
+// }

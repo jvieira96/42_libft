@@ -10,8 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
+
+/// Moves n bytes from memory area src to memory area dest
+/// dest	Pointer to the destination memory area
+/// src		Pointer to the source memory area
+/// n		Number of bytes to be copied
+/// return		SUCCESS(dest)
+/// return		FAILURE(dest) 
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

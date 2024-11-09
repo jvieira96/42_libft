@@ -10,8 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
+#include "libft.h"
+
+/// Converts an integer to a string
+/// n - number to convert
+/// return		SUCCESS(Pointer to the string)
+/// return		FAILURE(NULL)
 
 static int	ft_size(long n)
 {

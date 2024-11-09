@@ -10,18 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
+#include "libft.h"
 
-static int	ft_strlen(char const *str)
-{
-	int	len;
-
-	len = 0;
-	while (str[len] != '\0')
-		len++;
-	return (len);
-}
+// cat 2 srings
+// s1 first string
+// s2 second string to cat to s1
 
 static char	*ft_strcpy(const char *s1, const char *s2, char *s3)
 {

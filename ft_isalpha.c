@@ -10,7 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include "libft.h"
+
+///	Checks if character is alphabetic
+/// c - character to check
+/// return		SUCCESS(1)
+/// return		FAILURE(0)
 
 int	ft_isalpha(int c)
 {
@@ -20,11 +25,11 @@ int	ft_isalpha(int c)
 		return (0);
 }
 
-/*int	main(void)
-{
-	char	c;
+// int	main(void)
+// {
+// 	char	c;
 
-	c = '2';
-	printf("%d", ft_isalpha(c));
-	return (0); 
-}*/
+// 	c = 'a';
+// 	printf("%d", ft_isalpha(c));
+// 	return (0); 
+// }

@@ -10,7 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
+
+// function copies up to size - 1 characters 
+// from the NUL-terminated string src to dst, 
+// NUL-terminating the result.
+// return the total length of the string they tried to create.
 
 size_t	ft_strlcpy(char *dst, char const *src, size_t size)
 {
@@ -34,3 +39,13 @@ size_t	ft_strlcpy(char *dst, char const *src, size_t size)
 	}
 	return (len_src);
 }
+
+// int main()
+// {
+//     char src[] = "Hello, World!";
+//     char dst[20]; 
+//     size_t size = 10;
+//     size_t len = ft_strlcpy(dst, src, size);
+//     printf("ft_strlcpy: %s\n", dst);
+//     printf("Returned length: %zu\n", len);
+// }

@@ -10,9 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
 #include "libft.h"
+
+// Allocates (with malloc(3)) and returns a copy of
+// ’s1’ with the characters specified in ’set’ removed
+// from the beginning and the end of the string.
 
 char	*ft_allocates(int start, int end)
 {

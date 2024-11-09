@@ -10,8 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-// #include <stdio.h>
+#include "libft.h"
+
+///	Converts a string to an integer
+/// str - string to convert
+/// return - SUCCESS(integer)
 
 int	ft_atoi(const char *nptr)
 {

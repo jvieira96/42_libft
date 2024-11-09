@@ -10,9 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#include "libft.h"
+
+/// Splits a string into an array of strings
+/// s	Pointer to the string
+/// c	Separator
+/// return		SUCCESSS(Pointer to the array of strings)
+/// return		FAILURE(0)
 
 static int	ft_substrings(const char *s, char c)
 {

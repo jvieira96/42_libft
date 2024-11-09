@@ -10,8 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
+
+// function appends the NUL-terminated string 
+// src to the end of dst.  It will append  at most size
+// dest - dest to src
+// src - str to copy
+// size - maximum char to cpy
 
 int	ft_strlcat(char *dest, const char *src, size_t size)
 {

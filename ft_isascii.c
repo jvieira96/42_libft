@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+// checks if param is in the ascii table
+// c - param check 
+// return SUCCESS(1)
+// return FAILURE(0)
+
 int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
@@ -17,3 +24,11 @@ int	ft_isascii(int c)
 	else
 		return (0);
 }
+
+// int	main(void)
+// {
+// 	int	c = 3;
+
+// 	printf("%d", ft_isascii(c));
+// 	return(0);
+// }

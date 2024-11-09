@@ -10,8 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdlib.h>
+#include "libft.h"
+
+// copies, allocates and returns a pointer to the coppied string 
+// s - the string to be coppied
+// return  SUCCESS(pointer to new string)
+// return  FAILURE(returns NULL)
 
 char	*ft_strdup(const char *s)
 {
@@ -33,3 +37,18 @@ char	*ft_strdup(const char *s)
 	sdup[i] = '\0';
 	return (sdup);
 }
+
+// int main() {
+//     const char *str = "Hello, world!";
+//     char *dup_str = ft_strdup(str);
+
+//     if (dup_str != NULL) 
+// 	{
+//         printf("Duplicated string: %s\n", dup_str);
+//         free(dup_str);
+//     } else 
+// 	{
+//         printf("Memory allocation failed\n");
+//     }
+//     return 0;
+// }

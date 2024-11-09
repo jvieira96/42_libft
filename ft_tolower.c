@@ -10,7 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <unistd.h>
+#include "libft.h"
+
+// returns its uppercase equivalent, if an uppercase repre‐
+// sentation exists in the current locale.  Otherwise, it returns c.
 
 int	ft_tolower(int c)
 {

@@ -10,7 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
+
+/// Copies n bytes from memory area src to memory area dest
+/// dest	Pointer to the destination memory area
+/// src		Pointer to the source memory area
+/// n		Number of bytes to be copied
+/// return		SUCCESS(dest)
+/// return		FAILURE(NULL)
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
@@ -30,3 +37,11 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+// int	main(void)
+// {
+// 	char	*src = "Hello, World!";
+// 	char	*dest[20];
+
+// 	printf("%s", (char *)ft_memcpy(dest, src, 13));
+// 	return (0);
+// }

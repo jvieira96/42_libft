@@ -10,21 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
+#include "libft.h"
 
-static int	ft_strlen(char const *s)
-{
-	int	len;
-
-	len = 0;
-	while (s[len] != '\0')
-	{
-		len++;
-	}
-	return (len);
-}
+// Allocates (with malloc(3)) and returns a substring
+// from the string ’s’.
+// The substring begins at index ’start’ and is of
+// maximum size ’len’.
 
 static void	*ft_empty(void)
 {

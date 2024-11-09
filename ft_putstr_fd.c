@@ -12,6 +12,8 @@
 
 #include <unistd.h>
 
+// writes the string 
+
 void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;
@@ -23,3 +25,11 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
+
+// int	main(void)
+// {
+// 	char	*str = "ola tudo";
+
+// 	ft_putstr_fd(str, 1);
+// 	return (0);
+// }

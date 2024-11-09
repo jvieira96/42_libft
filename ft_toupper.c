@@ -10,6 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+// returns its lowercase equivalent, if an uppercase repre‐
+// sentation exists in the current locale.  Otherwise, it returns c.
+
 int	ft_toupper(int c)
 {
 	if (c >= 97 && c <= 122)
@@ -18,3 +23,10 @@ int	ft_toupper(int c)
 	}
 	return (c);
 }
+
+// int	main(void)
+// {
+// 	char	c = 'a';
+// 	printf("%c", (char)ft_toupper(c));
+// 	return (0);
+// }

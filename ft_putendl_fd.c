@@ -10,7 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
+
+// writes the string and puts a new line
 
 void	ft_putendl_fd(char *s, int fd)
 {
@@ -24,3 +26,11 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
+
+// int	main (void)
+// {
+// 	char	*str = "ola tudo";
+
+// 	ft_putendl_fd(str, 1);
+// 	return (0);
+// }

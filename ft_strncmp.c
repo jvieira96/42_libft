@@ -10,8 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
+
+// compares n chars of 2 strings and returns the difference
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

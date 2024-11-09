@@ -10,8 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
-#include <string.h>
+#include "libft.h"
+
+/// Compares the first n bytes of s1 and s2
+/// s1	Pointer to the first memory area
+/// s2	Pointer to the second memory area
+/// return		SUCCESS(difference between s1 and s2)
+/// return		FAILURE(0)
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
