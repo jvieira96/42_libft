@@ -69,4 +69,6 @@ int		ft_tolower(int c);
 int		ft_toupper(int c);
 char	*get_next_line(int fd);
 int		ft_printf(const char *format, ...);
+int	ft_strcmp(const char *s1, const char *s2);
+
 #endif
